@@ -15,9 +15,6 @@ object Anagrams {
   val dictionary: List[String] = loadDictionary("wordlist.txt")
 
   def main(args: Array[String]): Unit = {
-    // load dictionary
-//    println(dictionary.length)
-
     // read the user choice
     val ln = scala.io.StdIn.readLine()
 
