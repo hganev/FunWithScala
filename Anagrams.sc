@@ -26,6 +26,7 @@ object Anagrams {
     })
   }
 
+  /** Returns all the anagrams of a given word. */
   def findWordAnagrams(word: Word): List[Word] = dictionaryByOccurrences(charOccurrences(word))
 
   /** The `dictionaryByOccurrences` is a `Map` from different occurrences to a sequence of all
