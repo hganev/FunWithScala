@@ -15,13 +15,11 @@ object Anagrams {
   val dictionary: List[String] = loadDictionary("wordlist.txt")
 
   def main(args: Array[String]): Unit = {
-    // read the user choice
+  
     val ln = scala.io.StdIn.readLine()
 
-    // find anagrams
     time({
       val anagrams = findWordAnagrams(ln)
-      // print the found anagrams
       println(anagrams.mkString("|"))
     })
   }
