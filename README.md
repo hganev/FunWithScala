@@ -1,3 +1,3 @@
 # FunWithScala
 
-Some funny tasks resolved with elegant Scala language
+Some funny tasks resolved with the elegant Scala language
